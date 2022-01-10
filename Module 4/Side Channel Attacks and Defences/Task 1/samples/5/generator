@@ -1,0 +1,13 @@
+cd /home/sgx/pin-3.11-97998-g7ecce2dac-gcc-linux-master/source/tools/SGXTrace
+
+../../../pin -t ./obj-intel64/SGXTrace.so -o ~/isl/t1/samples/5/traces/pwned.txt -trace 1 -- ~/isl/t1/password_checker_1 pwned
+../../../pin -t ./obj-intel64/SGXTrace.so -o ~/isl/t1/samples/5/traces/haxor.txt -trace 1 -- ~/isl/t1/password_checker_1 haxor
+../../../pin -t ./obj-intel64/SGXTrace.so -o ~/isl/t1/samples/5/traces/dexter.txt -trace 1 -- ~/isl/t1/password_checker_1 dexter
+../../../pin -t ./obj-intel64/SGXTrace.so -o ~/isl/t1/samples/5/traces/party.txt -trace 1 -- ~/isl/t1/password_checker_1 party
+../../../pin -t ./obj-intel64/SGXTrace.so -o ~/isl/t1/samples/5/traces/dadcafe.txt -trace 1 -- ~/isl/t1/password_checker_1 dadcafe
+../../../pin -t ./obj-intel64/SGXTrace.so -o ~/isl/t1/samples/5/traces/haxer.txt -trace 1 -- ~/isl/t1/password_checker_1 haxer
+../../../pin -t ./obj-intel64/SGXTrace.so -o ~/isl/t1/samples/5/traces/testtest.txt -trace 1 -- ~/isl/t1/password_checker_1 testtest
+../../../pin -t ./obj-intel64/SGXTrace.so -o ~/isl/t1/samples/5/traces/doxer.txt -trace 1 -- ~/isl/t1/password_checker_1 doxer
+../../../pin -t ./obj-intel64/SGXTrace.so -o ~/isl/t1/samples/5/traces/whereami.txt -trace 1 -- ~/isl/t1/password_checker_1 whereami
+../../../pin -t ./obj-intel64/SGXTrace.so -o ~/isl/t1/samples/5/traces/wholetmein.txt -trace 1 -- ~/isl/t1/password_checker_1 wholetmein
+

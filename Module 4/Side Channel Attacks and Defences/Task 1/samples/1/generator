@@ -1,0 +1,20 @@
+cd /home/sgx/pin-3.11-97998-g7ecce2dac-gcc-linux-master/source/tools/SGXTrace
+../../../pin -t ./obj-intel64/SGXTrace.so -o ~/isl/t1/samples/1/traces/magicbeans.txt -trace 1 -- ~/isl/t1/password_checker_1 magicbeans
+
+../../../pin -t ./obj-intel64/SGXTrace.so -o ~/isl/t1/samples/1/traces/letmein.txt -trace 1 -- ~/isl/t1/password_checker_1 letmein
+
+../../../pin -t ./obj-intel64/SGXTrace.so -o ~/isl/t1/samples/1/traces/magic.txt -trace 1 -- ~/isl/t1/password_checker_1 magic
+
+../../../pin -t ./obj-intel64/SGXTrace.so -o ~/isl/t1/samples/1/traces/magicbeanr.txt -trace 1 -- ~/isl/t1/password_checker_1 magicbeanr
+
+../../../pin -t ./obj-intel64/SGXTrace.so -o ~/isl/t1/samples/1/traces/magicbeansmagic.txt -trace 1 -- ~/isl/t1/password_checker_1 magicbeansmagic
+
+../../../pin -t ./obj-intel64/SGXTrace.so -o ~/isl/t1/samples/1/traces/magicbeant.txt -trace 1 -- ~/isl/t1/password_checker_1 magicbeant
+
+../../../pin -t ./obj-intel64/SGXTrace.so -o ~/isl/t1/samples/1/traces/random.txt -trace 1 -- ~/isl/t1/password_checker_1 random
+
+../../../pin -t ./obj-intel64/SGXTrace.so -o ~/isl/t1/samples/1/traces/testtest.txt -trace 1 -- ~/isl/t1/password_checker_1 testtest
+
+../../../pin -t ./obj-intel64/SGXTrace.so -o ~/isl/t1/samples/1/traces/whoami.txt -trace 1 -- ~/isl/t1/password_checker_1 whoami
+
+../../../pin -t ./obj-intel64/SGXTrace.so -o ~/isl/t1/samples/1/traces/youshallpass.txt -trace 1 -- ~/isl/t1/password_checker_1 youshallpass

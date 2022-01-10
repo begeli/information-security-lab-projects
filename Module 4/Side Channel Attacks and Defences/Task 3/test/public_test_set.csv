@@ -1,0 +1,17 @@
+guess,correct,expected_output
+letmein,magicbeans,0
+letmein,wholetmein,0
+magic,magicbeans,0
+magic,wholetmein,0
+whoami,magicbeans,0
+whoami,wholetmein,0
+magicbeans,magicbeans,1
+magicbeans,wholetmein,0
+party,magicbeans,0
+party,wholetmein,0
+qwerty,magicbeans,0
+qwerty,wholetmein,0
+wholetmein,magicbeans,0
+wholetmein,wholetmein,1
+a,aaaaaaaaaa,0
+a,bbbbbbabbb,0
