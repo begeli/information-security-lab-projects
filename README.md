@@ -10,7 +10,7 @@
   crucial system components.
 
 ## Modules 
-* **Module 1:** Implementation of eliptic curve cryptography (ECC) primitives, and cryptanalysis of ECC with fully and partially leaked nonces 
+* **Module 1:** Implementation of eliptic curve cryptography (ECC) primitives, and cryptanalysis of ECDSA with fully and partially leaked nonces 
 * **Module 2:** Implementation of SIGMA protocol, implementation of TLS 1.3 protocol with PSKs and session resumption
 * **Module 3:** Cryptographic reductions
 * **Module 4:** Exploitation of Trusted Execution Environments
